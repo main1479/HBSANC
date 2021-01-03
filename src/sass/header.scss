@@ -1,0 +1,151 @@
+.header{
+
+
+
+    // ===================
+    // for navigation bar
+
+    .navbar{
+        padding: 2rem 0;
+        @media only screen and (max-width:$tab-port){
+            padding: 2rem;
+        }
+
+        
+
+        &-brand{
+            max-width: 27rem;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        &-nav{
+
+            
+
+            @media only screen and (max-width:$laptop-land){
+                padding: 3rem 0;
+                background: $color-secondary;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                border: 20px solid #fff;
+                // border-top: 0;
+                z-index: 9;
+                transition: height .3s;
+            }
+
+            li.nav-item{
+                &:not(:last-child){
+                    margin-right: 2.5rem;
+
+                    @media only screen and (max-width:$laptop-land){
+                        margin-right: 0;
+                        
+                    }
+                }
+
+                a.nav-link{
+                    &:link,
+                    &:visited{
+                        color: #3c3839;
+                        transition: all .3s;
+                    }
+
+                    &.login{
+                        color: $color-primary;
+                        text-decoration: underline;
+
+                        &:hover{
+                            color: #3c3839;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                &.active,
+                &:hover{
+                    a.nav-link{
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+
+        .navbar-toggler {
+            font-size: 2.25rem;
+            
+        }
+
+        .collapsing {
+            position: inherit;
+            transition: height 0.35s ease; 
+        }
+
+
+
+
+    }
+
+
+    // ===========================
+    // for header content
+
+    .header__content{
+        padding: 15rem 0;
+        background: #f4f4f4;
+        position: relative;
+
+        &-box{
+            position: relative;
+            z-index: 2;
+            @media only screen and (max-width:$laptop-port){
+                h3.heading{
+                    color: #fff;
+                }
+                h3.heading.big{
+                    color: $color-primary;
+                }
+
+            }
+            .btn-box{
+                .btn{
+                    &:not(:last-child){
+                        margin-right: 1rem;
+                    }
+                }
+                @media only screen and (max-width:$laptop-port){
+                    .btn{
+                        color: #fff;
+                    }
+                }
+                @media only screen and (max-width:$mbl-land){
+                    .btn{
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+
+        .header-img{
+            position: absolute;
+            width: 48%;
+            right: 0;
+            top: 0;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+
+            @media only screen and (max-width:$laptop-port){
+                width: 100%;
+                filter: brightness(.3);
+            }
+        }
+    }
+}
+
+
+
+  

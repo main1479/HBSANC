@@ -1,0 +1,35 @@
+.donate-now{
+    padding: 8rem 0;
+    h2.heading{
+        font-family: $roboto;
+    }
+
+    h3.heading{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .donation__details{
+        background: $color-primary;
+        text-align: center;
+        color: #fff;
+        padding: 4rem 2rem;
+        min-height: 38rem;
+        margin: 2.5rem 1rem;
+        transition: all .3s;
+
+        h2{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        &:hover{
+            // box-shadow: 0 0px 50px rgba($color-primary, .3);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+    }
+}

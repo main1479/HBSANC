@@ -1,0 +1,38 @@
+.steps{
+
+
+    &__box{
+        padding: 14rem 0;
+        background: #fff;
+        box-shadow: 0px 13px 72.96px 23.04px rgba(163, 163, 163, 0.13);
+        border-radius: 5px;
+
+        @media only screen and (max-width: $tab-port){
+            padding: 10rem 5rem;
+        }
+        @media only screen and (max-width: $mbl-port){
+            padding: 5rem 3rem;
+        }
+
+        .step{
+            
+            p{
+                display: inline;
+                font-weight: 400;
+            }
+
+            .apply{
+                color: $color-primary;
+                text-decoration: underline;
+                margin-left: 2rem;
+            }
+        }
+
+        .p__text{
+            margin: 1rem 0;
+        }
+    }
+}
+
+
+  

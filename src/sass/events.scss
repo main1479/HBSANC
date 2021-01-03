@@ -1,0 +1,31 @@
+.events{
+    margin-top: 14rem;
+    padding: 14rem 0;
+    background: $color-primary;
+    @media only screen and (max-width: $tab-port){
+        padding: 8rem 0;
+    }
+    &__box{
+        @media only screen and (max-width: $tab-port){
+            padding: 0 5rem;
+        }
+        @media only screen and (max-width: $mbl-port){
+            padding: 0 0;
+        }
+
+        .event{
+            p{
+                display: inline;
+                color: #f3f3f3;
+                font-weight: 400;
+                margin-left: 1rem;
+            }
+
+            .register{
+                color: #fff;
+                text-decoration: underline;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.rules{
+    margin-top: 14rem;
+
+    .embed-responsive{
+        border-radius: 10px;
+        margin-bottom: 14rem;
+    }
+
+    &__list{
+        &-item{
+            margin-bottom: 1rem;
+        }
+    }
+}

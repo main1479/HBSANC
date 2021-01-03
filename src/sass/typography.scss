@@ -1,0 +1,140 @@
+h1.heading,
+h2.heading{
+    font-size: 5.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: $color-primary;
+ 
+    &.dark{ 
+        color: $text-dark;
+    }
+
+    &.white{
+        color: #fff;
+    }
+
+    @media only screen and (max-width:$tab-port){
+        font-size: 4.5rem;
+    }
+    @media only screen and (max-width:$mbl-land){
+        font-size: 4rem;
+    }
+    @media only screen and (max-width:$mbl-port){
+        font-size: 3.5rem;
+    }
+}
+
+h3.heading{
+    font-size: 3.6rem;
+    color: $text-dark;
+    font-weight: bold;
+
+    &.big{
+        font-size: 4.2rem;
+        color: $color-primary;
+    }
+    &.white{
+        color: #fff;
+    }
+
+    @media only screen and (max-width:$tab-port){
+        font-size: 3rem;
+
+        &.big{
+            font-size: 3.5rem;
+        }
+    }
+    @media only screen and (max-width:$mbl-land){
+        font-size: 2.7rem;
+
+        &.big{
+            font-size: 3rem;
+        }
+    }
+
+}
+
+h4.heading{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8;
+    color: $color-primary;
+
+    
+    &.dark{
+        color: $text-dark;
+    }
+    &.white{
+        color: #fff;
+    }
+    &.light{
+        color: #f3f3f3;
+    }
+
+}
+
+
+.p__text{
+    font-size: 1.6rem;
+    color: $text;
+
+    &.big{
+        font-size: 3rem;
+    }
+
+    &.mid{
+        font-size: 2.5rem;
+
+    }
+    &.small{
+        font-size: 2rem;
+    }
+
+    &.bold{
+        font-weight: bold;
+    }
+    &.light{
+        color: #f3f3f3;
+    }
+
+    &.dark{
+        color: $text-dark;
+    }
+}
+
+
+
+
+
+
+
+.primary{
+    color: $color-primary !important;
+}
+
+.roboto{
+    font-family: $roboto;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+.fw-300{
+    font-weight: 300;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.white{
+    color: #fff;
+}

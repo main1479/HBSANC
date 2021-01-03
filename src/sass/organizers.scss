@@ -1,0 +1,35 @@
+.organizers{
+    padding-top: 14rem;
+
+    &__box{
+        margin-bottom: 3rem;
+
+        &-img{
+            width: 10rem;
+            height: 10rem;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        .name{
+            font-size: 1.6rem;
+            margin-top: 2rem;
+            margin-bottom: 0;
+            p{
+                display: inline;
+                font-weight: 400;
+            }
+        }
+        .position{
+            margin-bottom: 0;
+        }
+
+        a.linkedin{
+            font-size: 3rem;
+            color: #0073b1;
+        }
+    }
+}

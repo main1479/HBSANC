@@ -1,0 +1,40 @@
+.info{
+    padding: 14rem 0;
+
+    @media only screen and (max-width: $tab-port){
+        padding: 10rem 5rem;
+    }
+    @media only screen and (max-width: $tab-port){
+        padding: 8rem 0;
+    }
+
+
+    &__list{
+        margin-top: 2rem;
+
+        li{
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+
+            i{
+                width: 20px;
+                height: 20px;
+                color: $color-primary;
+                border: 1px solid currentColor;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 10px;
+                line-height: 18px;
+                margin-right: 20px;
+
+                @media only screen and (max-width:$mbl-land){
+                    border: none;
+                    font-size: 10px;
+                    line-height: 20px;
+                }
+            }
+
+        }
+    }
+}

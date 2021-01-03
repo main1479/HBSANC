@@ -1,0 +1,79 @@
+.footer{
+    padding: 14rem 0;
+    background: $color-primary;
+
+    &-item{
+        margin-bottom: 3rem;
+    }
+
+    &__list{
+
+        li{
+            align-items: flex-start;
+            // justify-content: space-between;
+            margin-bottom: 1.5rem;
+            .img{
+                flex: 0 0 45px;
+
+                img{
+                    filter: grayscale(100%);
+                }
+            }
+            a{
+                // flex: 0 0 85%;
+                font-size: 2rem;
+                color: #fff;
+            }
+        }
+    }
+
+    &__social{
+        align-items: center;
+        max-width: 15rem;
+        justify-content: space-between;
+    }
+
+    // ======================================
+    // donation page footer =================
+
+    &.donation-page{
+        background: #f3f3f3;
+        padding: 10rem 0 2rem 0;
+        .footer-item{
+            h2.heading{
+                font-size: 3.5rem;
+                font-weight: 400;
+                font-family: $poppins;
+                color: $text;
+            }
+
+            .footer-logo{
+                max-width: 20rem;
+                @media only screen and (max-width:$tab-land){
+                    max-width: 30rem;
+                }
+            }
+        }
+    
+        .footer__list{
+    
+            li{
+                align-items: flex-start;
+                // justify-content: space-between;
+                margin-bottom: 1.5rem;
+                .img{
+                    flex: 0 0 45px;
+    
+                    img{
+                        filter: grayscale(100%);
+                    }
+                }
+                a{
+                    // flex: 0 0 85%;
+                    font-size: 2rem;
+                    color: $text;
+                }
+            }
+        }
+    }
+}

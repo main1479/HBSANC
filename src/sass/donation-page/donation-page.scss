@@ -1,0 +1,70 @@
+.donate{
+    font-family: $poppins;
+
+    .btn{
+        &,
+        &:link,
+        &:visited{
+            display: inline-block;
+            background: $color-primary;
+            padding: 1.5rem 6rem;
+            font-size: 4rem;
+            font-weight: 500;
+            box-shadow: 0 1rem 3rem rgba($color-primary, .1);
+            transition: all .3s;
+            backface-visibility: hidden;
+            border: 1px solid $color-primary;
+            color: #fff !important;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 400px;
+            font-family: $poppins;
+            &:hover{
+                background: none;
+            }
+        }
+
+        &.small{
+            font-size: 1.6rem;
+            padding: .8rem 2rem;
+            border-radius: 5px;
+            width: auto;
+            max-width: auto;
+            font-family: $roboto;
+            &:hover{
+                color: $text-dark !important;
+                
+            }
+        }
+
+        
+    }
+    
+    .heading{
+        font-family: $roboto;
+    }
+
+    .link{
+        &:link,
+        &:visited{
+            font-size: inherit;
+        }
+    
+
+
+}
+
+}
+
+.donate-container{
+    max-width: 1400px;
+}
+
+
+
+
+@import "header";
+@import "donate-now";
+@import "donate-cta";
+@import "donate-about-us";
+@import "director-talks";

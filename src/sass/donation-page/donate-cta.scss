@@ -1,0 +1,17 @@
+.donation-cta{
+    padding: 8rem 0;
+    background: #f3f3f3;
+
+    .btn{
+
+        &:hover{
+            color: $text-dark !important;
+        }
+    }
+
+    .p__text{
+        &.big{
+            color: $text-dark;
+        }
+    }
+}
